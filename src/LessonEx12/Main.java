@@ -1,7 +1,5 @@
 package LessonEx12;
 
-import javax.annotation.processing.Processor;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -14,9 +12,14 @@ public class Main {
         ram.method();
 
         MotherBoard.USB usb1 = new MotherBoard.USB(); //instanta de static nested class USB intr-o clasa Motherboard
-        usb1.methodStaticClass(); //metoda poate fi apelat cu clasa USB.
+        usb1.methodStaticClass(); //metoda poate fi apelat.
 
         MotherBoard.USB.methodStaticClass(); //sugerat de editor, aceeasi ca line 17
 
     }
 }
+
+//Processor info..
+//RAM info..
+//USB connected..
+//USB connected..
